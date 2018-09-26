@@ -1,0 +1,139 @@
+body{
+    font-family: 'Courgette', cursive;
+    background-color: rgb(236, 247, 243);
+    height: 100%;
+    margin: 0 auto;
+}
+#ClickMe {
+    margin: auto;
+    max-width: 960px;
+    padding: 12px;
+}
+header {
+    background-color: rgb(246, 221, 223);
+    height: 150px;
+    padding: 4px;
+}
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+.main_menu {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+.main_menu a {
+    color: rgb(109, 107, 107);
+    padding: 8px;
+    font-variant: small-caps;
+}
+.main_menu a:hover {
+    color: rgb(236, 247, 243);
+}
+#main-container {
+    margin: 100px;
+    padding: 50px;
+    background-color: rgb(182,214,224);
+    position: fixed;
+}
+h2:hover{
+    color: rgb(246, 221, 223);   
+}
+img {
+    transform: rotate(90deg);
+    position: relative;
+    float: left;    
+}
+p {
+    text-align: center;
+    position: relative;
+    float: right;
+    color: rgb(109, 107, 107);  
+}
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid ,rgb(246, 221, 223);
+    height: 50px;
+}
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+   .work:nth-child(even) {
+    margin-right: 40px;
+  }
+   .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+   .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+   .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+
+
+@media screen and (max-width: 768px) {
+body {
+        background-color: lavender;
+    }
+header {
+        background-color: lightgoldenrodyellow;
+        height: 95px;
+        width: auto;
+       border-bottom: 50px;
+    }
+ header h1 {
+        color: grey;
+        font-size: 18px;
+        
+    }
+.main_menu {
+    padding: 20px;
+    display: inline;
+    flex-wrap: initial;
+}
+.main_menu a {
+    padding-bottom: 30px;
+}
+.main_menu a:hover {
+    color: navy;
+}
+.container {
+    width: 100%;
+    padding: 10px;
+    margin: 75px;
+    height: 419px;
+    text-overflow: unset;
+}
+}
+
